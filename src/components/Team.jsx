@@ -1,7 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
-import classes from './Team.module.css';
 import clsx from 'clsx';
-import BetteChenPhoto from '../photo/Bette_Chen.svg';
+import classes from './Team.module.css';
 import AntoniaChenPhoto from '../photo/Antonia_Chen.svg';
 import ErmalKaleciPhoto from '../photo/Ermal_Kaleci.svg';
 import YuZhuLiuPhoto from '../photo/Yuzhu_Liu.svg';
@@ -9,6 +8,9 @@ import JianJiangWangPhoto from '../photo/Jianjiang_Wang.svg';
 import HaoQiuPhoto from '../photo/Hao_Qiu.svg';
 import JackPlatts from '../photo/Jack_Platts.svg';
 import ShaunWang from '../photo/Shaun_Wang.svg';
+import AshleyTyson from '../photo/Ashley_Tyson.png';
+import DanReecer from '../photo/Dan_Reecer.png';
+import QueenaShao from '../photo/Queena_Shao.svg';
 import LaminarLogo from '../assets/laminar-logo-team.svg';
 import PolkaWalletLogo from '../assets/polkawallet-logo-team.svg';
 import Web3FoundationLogo from '../assets/web3-foundation-logo-team.svg';
@@ -61,13 +63,6 @@ const Controll = ({ onNext, onPrev, prevDisabled, nextDisabled }) => {
 export const Team = () => {
     const members = useRef([
         {
-            photo: BetteChenPhoto,
-            name: 'Bette Chen',
-            title: 'Chief Operating Officer',
-            company: 'laminar',
-            icon: LaminarLogo
-        },
-        {
             photo: AntoniaChenPhoto,
             name: 'Antonia Chen',
             title: 'Chief Economist',
@@ -115,11 +110,32 @@ export const Team = () => {
             title: 'Senior Software Engineer',
             company: 'laminar',
             icon: LaminarLogo,
+        },
+        {
+            photo: QueenaShao,
+            name: 'Queena Shao',
+            title: 'UI Designer',
+            company: 'laminar',
+            icon: LaminarLogo,
+        },
+        {
+            photo: DanReecer,
+            name: 'Dan Reecer',
+            title: 'Advisor/Contributor',
+            company: 'web3-foundation',
+            icon: Web3FoundationLogo,
+        },
+        {
+            photo: AshleyTyson,
+            name: 'Ashley Tyson',
+            title: 'Advisor',
+            company: 'web3-foundation',
+            icon: Web3FoundationLogo,
         }
     ].sort(() => 0.5 - Math.random()));
     const ref = useRef();
     const [count, setCount] = useState(0);
-    const maxCount = useRef(0);
+    const [maxCount, setMaxCount] = useState(0);
 
     useEffect(() => {
         const $list = ref.current;
@@ -127,7 +143,7 @@ export const Team = () => {
         const $item = $list.querySelector('li');
         const itemWidht = $item.clientWidth;
         const itemMargin = parseInt(window.getComputedStyle($item)['margin-right']);
-        maxCount.current = Math.ceil($list.clientWidth / ((itemWidht + itemMargin) * 3));
+        setMaxCount(Math.ceil($list.clientWidth / ((itemWidht + itemMargin) * 3)))
     }, []);
 
     useEffect(() => {
@@ -142,7 +158,7 @@ export const Team = () => {
     const onNext = () => {
         const $list = ref.current;
         if (!$list) return false;
-        if (count < maxCount.current) {
+        if (count < maxCount) {
             setCount(count + 1);
         }
     };
@@ -158,9 +174,9 @@ export const Team = () => {
     return (
         <section className={classes.root}>
             <Container>
-                <div className={classes.title}>Contributors</div>
+                <div className={classes.title}>Meet our team</div>
                 <Member members={members.current} ref={ref} />
-                <Controll onNext={onNext} onPrev={onPrev} prevDisabled={count === 0} nextDisabled={count === maxCount.current}/>
+                <Controll onNext={onNext} onPrev={onPrev} prevDisabled={count === 0} nextDisabled={count === maxCount}/>
             </Container>
         </section>
     );

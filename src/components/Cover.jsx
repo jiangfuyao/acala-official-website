@@ -9,7 +9,7 @@ import polkaWalletIcon from "../assets/polkadot-wallet.svg";
 import laminarIcon from "../assets/laminar.svg";
 import polkaWalletColorIcon from "../assets/polkadot-wallet-color.svg";
 import laminarColorIcon from "../assets/laminar-color.svg";
-import coverBackground from "../assets/cover-background.gif";
+import coverBackground from "../assets/cover-bg.mp4";
 
 const MemberItem = ({ name, icon, hoverIcon, link }) => {
     const [hover, setHover] = useState(false);
@@ -48,8 +48,8 @@ const Assets = ({ assets }) => {
 
 export const Cover = () => {
     const members = [
-        { name: "Laminar", icon: laminarIcon, hoverIcon: laminarColorIcon, link: 'https://laminar.one' },
-        { name: "Polkawallet", icon: polkaWalletIcon, hoverIcon: polkaWalletColorIcon, link: 'https://polkawallet.io' }
+        { name: "Polkawallet", icon: polkaWalletIcon, hoverIcon: polkaWalletColorIcon, link: 'https://polkawallet.io' },
+        { name: "Laminar", icon: laminarIcon, hoverIcon: laminarColorIcon, link: 'https://laminar.one' }
     ];
 
     const assets = [
@@ -60,17 +60,13 @@ export const Cover = () => {
     return (
         <section className={classes.root}>
             <Container>
-                <img src={coverBackground} className={classes.background} alt="cover-background" />
+                <video src={coverBackground} className={classes.background} autoPlay loop="loop" />
                 <h1 className={classes.title}>
-                    A decentralized stablecoin platform powering cross-blockchain open
-                    finance applications
+                    A decentralized finance hub and stablecoin platform powering cross blockchain liquidity and applications
                 </h1>
                 <div className={classes.member}>
                     <div>Founding Members</div>
                     <Member members={members} />
-                </div>
-                <div className={classes.separator}>
-                    <span>Networks</span>
                 </div>
                 <Assets assets={assets} />
             </Container>
