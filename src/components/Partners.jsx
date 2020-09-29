@@ -21,6 +21,7 @@ import spartan from '../assets/spartan.svg';
 import altonomy from '../assets/altonomy.svg';
 import CMS from '../assets/CMS.svg';
 import divergence from '../assets/divergence.svg';
+import pantera from '../assets/pantera.svg';
 import coinfund from '../assets/coinfund.svg';
 import dcg from '../assets/dcg.svg';
 import zeePrime from '../assets/zee-prime.svg';
@@ -67,16 +68,17 @@ export const Partners = () => {
         { name: 'p2pValidator', img: p2pValidator, link: 'https://p2p.org' },
         { name: 'hypersphere', img: hypersphere, link: 'https://www.hypersphere.ventures' },
         { name: '1confirmation', img: s1confirmation, link: 'https://www.1confirmation.com' },
-        { name: 'arrington', img: arrington, link: 'http://arringtonxrpcapital.com', style: { maxWidth: '60%' } },
+        { name: 'arrington', img: arrington, link: 'http://arringtonxrpcapital.com' },
         { name: 'parafi', img: parafi, link: 'https://www.parafi.capital' },
         { name: 'spartan', img: spartan, link: 'https://www.spartangroup.io' },
         { name: 'altonomy', img: altonomy, link: 'https://www.altonomy.com' },
-        { name: 'CMS', img: CMS, link: 'http://cmsholdings.io', style: { maxWitdh: '60%' } },
+        { name: 'CMS', img: CMS, link: 'http://cmsholdings.io'},
         { name: 'divergence', img: divergence, link: 'https://www.div.vc' },
         { name: 'coinfund', img: coinfund, link: 'https://coinfund.io' },
-        { name: 'dcg',  img: dcg, link: 'https://dcg.co', style: { maxHeight: '80%' } },
-        { name: 'zeePrime', img: zeePrime, link: 'https://zeeprime.capital', style: { maxHeight: '60%' } },
-        { name: 'dantons', img: dantons, link: 'https://www.dentons.com' }
+        { name: 'dcg',  img: dcg, link: 'https://dcg.co' },
+        { name: 'zeePrime', img: zeePrime, link: 'https://zeeprime.capital' },
+        { name: 'dantons', img: dantons, link: 'https://www.dentons.com' },
+        { name: 'pantera', img: pantera, link: 'https://www.panteracapital.com' }
     ];
 
     return (

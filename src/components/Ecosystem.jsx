@@ -53,7 +53,7 @@ export const Ecosystem = () => {
     const list = [
         { name: 'chainlink', img: chainlink, link: 'https://chain.link' },
         { name: 'chainx', img: chainx, link: 'https://chainx.org/' },
-        { name: 'dipole', img: dipole, link: 'https://www.dipole.tech', style: { 'maxWidth': '60%' } },
+        { name: 'dipole', img: dipole, link: 'https://www.dipole.tech' },
         { name: 'plasm', img: plasm, link: 'https://www.plasmnet.io' },
         { name: 'polka-world', img: polkaWorld, link: 'https://www.polkaworld.org' },
         { name: 'subsocial', img: subsocial, link: 'http://subsocial.network' },
@@ -63,8 +63,8 @@ export const Ecosystem = () => {
         { name: 'ont', img: ont, link: 'https://ont.io' },
         { name: 'interlay', img: interlay, link: 'https://www.interlay.io' },
         { name: 'moonbeam', img: moonbeam, link: 'https://moonbeam.network' },
-        { name: 'subscan', img: subscan, link: 'https://www.subscan.io', style: { 'minWidth': '70%' } },
-        { name: 'ren-btc', img: ren, link: 'https://renproject.io', style: { 'maxWidth': '60%' } },
+        { name: 'subscan', img: subscan, link: 'https://www.subscan.io' },
+        { name: 'ren-btc', img: ren, link: 'https://renproject.io' }
     ];
     const proofPartners = [
         { name: 'OnFinality', img: onfinality, link: 'https://www.onfinality.io' },
