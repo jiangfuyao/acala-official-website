@@ -21,6 +21,7 @@ import spartan from '../assets/spartan.svg';
 import altonomy from '../assets/altonomy.svg';
 import CMS from '../assets/CMS.svg';
 import divergence from '../assets/divergence.svg';
+import pantera from '../assets/pantera.svg';
 import coinfund from '../assets/coinfund.svg';
 import dcg from '../assets/dcg.svg';
 import zeePrime from '../assets/zee-prime.svg';
@@ -76,7 +77,8 @@ export const Partners = () => {
         { name: 'coinfund', img: coinfund, link: 'https://coinfund.io' },
         { name: 'dcg',  img: dcg, link: 'https://dcg.co', style: { maxHeight: '80%' } },
         { name: 'zeePrime', img: zeePrime, link: 'https://zeeprime.capital', style: { maxHeight: '60%' } },
-        { name: 'dantons', img: dantons, link: 'https://www.dentons.com' }
+        { name: 'dantons', img: dantons, link: 'https://www.dentons.com' },
+        { name: 'pantera', img: pantera, link: 'https://www.panteracapital.com' }
     ];
 
     return (
