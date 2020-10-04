@@ -7,6 +7,12 @@
     background: #ffffff;
 }
 
+.headerDark {
+    background: #000000;
+    color: #ffffff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
 .header + section {
     margin-top: 91.5px;
 }
@@ -21,6 +27,14 @@
 
 .header.open + a + section {
     margin-top: 181.5px;
+}
+
+.header.open + :global(.ipo_content) {
+    margin-top: 181.5px;
+}
+
+.header + :global(.ipo_content) {
+    margin-top: 91.5px;
 }
 
 .container {
@@ -44,7 +58,8 @@
     margin-left: 64px;
 }
 
-.mobileMenu, .mobileMenuContainer {
+.mobileMenu,
+.mobileMenuContainer {
     display: none;
 }
 

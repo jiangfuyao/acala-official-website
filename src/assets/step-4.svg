@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="397px" height="552px" viewBox="0 0 397 552" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 30</title>
+    <defs>
+        <rect id="path-1" x="0" y="91" width="260" height="316"></rect>
+        <filter x="-19.2%" y="-12.7%" width="138.5%" height="131.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.76215119   0 0 0 0 0.794377239   0 0 0 0 0.810490263  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="IPO" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IPO-Polkadot" transform="translate(-1270.000000, -2556.000000)">
+            <g id="Group-30" transform="translate(1300.000000, 2556.000000)">
+                <path d="M260.285132,91 L353.25993,223.738388 L355,542 L102.668024,542 L0,407" id="Path-31-Copy-5" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-dasharray="6,6"></path>
+                <line x1="260" y1="407" x2="355" y2="542" id="Path-32-Copy-5" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="6,6"></line>
+                <g id="Rectangle-Copy-21">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <circle id="Oval-Copy-7" fill="#E6007A" cx="355" cy="540" r="12"></circle>
+                <circle id="Oval-Copy-11" fill="#E6007A" cx="243" cy="94" r="42"></circle>
+                <text id="4" font-family="WorkSans-Regular, Work Sans" font-size="120" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="206" y="112">4</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

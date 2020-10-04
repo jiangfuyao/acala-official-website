@@ -1,13 +1,23 @@
 .root {
     position: relative;
     cursor: pointer;
-    margin-left: 64px;
+    margin-left: 32px;
     width: 160px;
 }
 
 .root:hover .menu {
     display: block;
     opacity: 1;
+}
+
+.themeDark .menu,
+.themeDark .title,
+.themeDark .menuLink {
+    color: #ffffff;
+}
+
+.themeDark .menuLinkActive {
+    color: #02ffe1;
 }
 
 .title {
@@ -37,24 +47,29 @@
     color: #333333;
 }
 
+.menuLink {
+    color: #333333;
+    text-decoration: none;
+}
+
 .menu:hover {
     display: block !important;
     opacity: 1 !important;
 }
 
 .menu::after {
-    content: '';
+    content: "";
     z-index: -1;
     position: absolute;
     top: -20px;
     left: calc(100px - 5px);
-    border-top: 10px solid  transparent;
+    border-top: 10px solid transparent;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 10px solid #ffffff;
 }
 .menu::before {
-    content: '';
+    content: "";
     z-index: -1;
     position: absolute;
     top: -40px;
@@ -85,14 +100,17 @@
     white-space: nowrap;
 }
 
-
-.menuItem a, .menuItem a:hover, .menuItem a:active, .menuItem a:visited, .menuItem a:link {
+.menuItem a,
+.menuItem a:hover,
+.menuItem a:active,
+.menuItem a:visited,
+.menuItem a:link {
     color: #333333;
     text-decoration: none;
 }
 
 .menuItem:hover a {
-    color:#0155ff !important;
+    color: #0155ff !important;
 }
 
 .menuItem:last-child {
@@ -131,5 +149,13 @@
     }
     .menu::after {
         display: none;
+    }
+
+    .themeDark .title {
+        color: #333333;
+    }
+
+    .themeDark .menuLinkActive {
+        color: #333333;
     }
 }

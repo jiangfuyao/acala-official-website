@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="395px" height="547px" viewBox="0 0 395 547" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 14</title>
+    <defs>
+        <rect id="path-1" x="0" y="85" width="260" height="316"></rect>
+        <filter x="-19.2%" y="-12.7%" width="138.5%" height="131.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.76215119   0 0 0 0 0.794377239   0 0 0 0 0.810490263  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="IPO" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IPO-Polkadot" transform="translate(-330.000000, -2601.000000)">
+            <g id="Group-14" transform="translate(360.000000, 2601.000000)">
+                <path d="M260.285132,85 L353.25993,217.738388 L355,536 L102.668024,536 L0,401" id="Path-31" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-dasharray="6,6"></path>
+                <g id="Rectangle-Copy-6">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <circle id="Oval-Copy-4" fill="#E6007A" cx="255" cy="94" r="42"></circle>
+                <line x1="260" y1="401" x2="355" y2="536" id="Path-32" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="6,6"></line>
+                <text id="1" font-family="WorkSans-Regular, Work Sans" font-size="120" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="232" y="112">1</tspan>
+                </text>
+                <circle id="Oval-Copy-15" fill="#E6007A" cx="353" cy="535" r="12"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
