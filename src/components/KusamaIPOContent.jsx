@@ -303,7 +303,7 @@ function KusamaIPOContent() {
                                     </a>
                                     ,{" "}
                                     <a
-                                        href="/"
+                                        href="https://twitter.com/karuranetwork"
                                         className={classes.exlink}
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -405,7 +405,7 @@ function KusamaIPOContent() {
                                             </a>
                                             ,{" "}
                                             <a
-                                                href="/"
+                                                href="https://twitter.com/karuranetwork"
                                                 className={classes.exlink}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
