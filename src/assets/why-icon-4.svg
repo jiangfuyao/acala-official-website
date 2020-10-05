@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="46px" viewBox="0 0 52 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 7</title>
+    <g id="IPO" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IPO-Kusama" transform="translate(-362.000000, -2147.000000)">
+            <g id="Group-7" transform="translate(365.000000, 2150.000000)">
+                <path d="M22.39,25 C23.1576758,25 23.78,25.6223242 23.78,26.39 L23.78,38.588314 C23.78,39.3559898 23.1576758,39.978314 22.39,39.978314 C21.6223242,39.978314 21,39.3559898 21,38.588314 L21,26.39 C21,25.6223242 21.6223242,25 22.39,25 Z" id="Rectangle-Copy-52" fill="#E40D7B" transform="translate(22.390000, 32.489157) rotate(-270.000000) translate(-22.390000, -32.489157) "></path>
+                <path d="M14.39,14 C15.1576758,14 15.78,14.6223242 15.78,15.39 L15.78,24.5883141 C15.78,25.3559899 15.1576758,25.9783141 14.39,25.9783141 C13.6223242,25.9783141 13,25.3559899 13,24.5883141 L13,15.39 C13,14.6223242 13.6223242,14 14.39,14 Z" id="Rectangle-Copy-60" fill="#E40D7B" transform="translate(14.390000, 19.989157) rotate(-330.000000) translate(-14.390000, -19.989157) "></path>
+                <path d="M30.39,14 C31.1576758,14 31.78,14.6223242 31.78,15.39 L31.78,24.5883141 C31.78,25.3559899 31.1576758,25.9783141 30.39,25.9783141 C29.6223242,25.9783141 29,25.3559899 29,24.5883141 L29,15.39 C29,14.6223242 29.6223242,14 30.39,14 Z" id="Rectangle-Copy-61" fill="#E40D7B" transform="translate(30.390000, 19.989157) rotate(-390.000000) translate(-30.390000, -19.989157) "></path>
+                <g id="Group-6" transform="translate(15.000000, 0.000000)">
+                    <circle id="Oval" stroke="#E40D7B" stroke-width="2.78" cx="7.44" cy="7.44" r="8.83"></circle>
+                    <rect id="Rectangle" fill="#E40D7B" x="5" y="5" width="4.96124038" height="4.96124038" rx="2.48062019"></rect>
+                </g>
+                <g id="Group-5" transform="translate(0.000000, 25.000000)">
+                    <circle id="Oval-Copy-116" stroke="#E40D7B" stroke-width="2.78" cx="7.44" cy="7.44" r="8.83"></circle>
+                    <rect id="Rectangle-Copy-2" fill="#E40D7B" x="5" y="5" width="4.96124038" height="4.96124038" rx="2.48062019"></rect>
+                </g>
+                <g id="Group-5-Copy" transform="translate(31.000000, 25.000000)">
+                    <circle id="Oval-Copy-116" stroke="#E40D7B" stroke-width="2.78" cx="7.44" cy="7.44" r="8.83"></circle>
+                    <rect id="Rectangle-Copy-2" fill="#E40D7B" x="5" y="5" width="4.96124038" height="4.96124038" rx="2.48062019"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

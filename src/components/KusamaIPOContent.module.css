@@ -25,7 +25,7 @@
     color: #ffffff;
 }
 
-.cover_content a {
+.exlink {
     color: #e6007a;
 }
 
@@ -139,7 +139,11 @@
 }
 
 .why_content {
+}
+
+.why_content_row {
     display: flex;
+    margin-bottom: 72px;
 }
 
 .why_item {
@@ -147,15 +151,23 @@
 }
 
 .why_item:not(:last-child) {
-    margin-right: 88px;
+    margin-right: 76px;
 }
 
-.why_item_title {
-    margin-bottom: 40px;
+.why_item_head {
+    margin-bottom: 16px;
 }
 
 .why_item_icon {
-    width: 50px;
+    width: 42px;
+}
+
+.why_item_title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    color: #ffffff;
+    margin-bottom: 16px;
 }
 
 .why_item_content {
@@ -423,7 +435,7 @@
     }
 
     .what_content_title,
-    .why_item_title {
+    .why_item_head {
         text-align: center;
         font-size: 18px;
         font-weight: 500;
@@ -450,12 +462,21 @@
         margin-right: 0;
     }
 
-    .why_content {
+    .why_content_row {
         flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .why_item_head {
+        margin-top: 24px;
     }
 
     .why_item_title {
-        margin-top: 24px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: normal;
+        color: #ffffff;
     }
 
     .how .container {
@@ -465,6 +486,7 @@
 
     .how_title {
         margin-top: 32px;
+        margin-bottom: 0;
     }
 
     .how_content {
@@ -528,6 +550,10 @@
 
     .faq_title {
         margin-top: 0px;
+    }
+
+    .faq_content {
+        margin-top: 24px;
     }
 
     .faq .container {

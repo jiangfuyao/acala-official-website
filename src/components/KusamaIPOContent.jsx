@@ -9,6 +9,8 @@ import whatIcon3 from "../assets/what-light-icon-3.svg";
 import whyIcon1 from "../assets/why-icon-1.svg";
 import whyIcon2 from "../assets/why-icon-2.svg";
 import whyIcon3 from "../assets/why-icon-3.svg";
+import whyIcon4 from "../assets/why-icon-4.svg";
+import whyIcon5 from "../assets/why-icon-5.svg";
 import { useEffect } from "react";
 import clsx from "clsx";
 
@@ -41,15 +43,21 @@ function KusamaIPOContent() {
                         Join the First-ever Blockchain IPO
                     </h1>
                     <div className={classes.cover_content}>
-                        Acala is the financial hub of <a href="">Kusama</a> that
-                        makes it fast and easy to use or build financial
-                        applications, improving trading efficiency and saving
-                        valuable time. Be a part of Acala’s fair and ethical
-                        token distribution by participating in our initial
-                        parachain offering (IPO).
+                        Acala is the decentralized financial hub of{" "}
+                        <a
+                            href="http://kusama.network"
+                            className={classes.exlink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Kusama
+                        </a>
+                        . Be a part of Acala’s fair and ethical token
+                        distribution by participating in our initial parachain
+                        offering (IPO).
                     </div>
                     <div className={classes.cover_action}>
-                        <div className={classes.cover_button}>Get Start</div>
+                        <div className={classes.cover_button}>Get Started</div>
                         <div className={classes.cover_button}>Subscribe</div>
                     </div>
                 </div>
@@ -95,12 +103,11 @@ function KusamaIPOContent() {
                                 <div className={classes.what_content_content}>
                                     Tokens will be returned to holders following
                                     parachain lease, with a guarantee of
-                                    receiving your principal back. This is not a
-                                    capital raise event, and it will result in a
-                                    net positive for KSM holders. It can be seen
-                                    as a loan from community members looking to
-                                    contribute to the evolution of Kusama’s
-                                    network.
+                                    receiving your principal back. It can be
+                                    seen as a loan from community members
+                                    looking to contribute to the evolution of
+                                    Kusama’s network, and will result in a net
+                                    positive for KSM holders.
                                 </div>
                             </div>
                         </div>
@@ -135,66 +142,106 @@ function KusamaIPOContent() {
                         Why host an IPO and how does it work?
                     </div>
                     <div className={classes.why_content}>
-                        <div className={classes.why_item}>
-                            <div className={classes.why_item_title}>
-                                <img
-                                    className={classes.why_item_icon}
-                                    src={whyIcon1}
-                                    alt="acala"
-                                />
+                        <div className={classes.why_content_row}>
+                            <div className={classes.why_item}>
+                                <div className={classes.why_item_head}>
+                                    <img
+                                        className={classes.why_item_icon}
+                                        src={whyIcon1}
+                                        alt="acala"
+                                    />
+                                </div>
+                                <div className={classes.why_item_title}>
+                                    Kusama
+                                </div>
+                                <div className={classes.why_item_content}>
+                                    Kusama is a sharded, multi-chain network
+                                    that allows blockchains to connect for
+                                    interoperability, scalability, and
+                                    plug-and-play network security. Kusama is
+                                    the canary network of Polkadot.
+                                </div>
                             </div>
-                            <div className={classes.why_item_content}>
-                                Acala is a blockchain (called a parachain)
-                                optimized for DeFi on Polkadot and Kusama.
-                                Kusama is a sharded, multi-chain network that
-                                allows blockchains to connect for
-                                interoperability, scalability, and plug-and-play
-                                network security. Kusama was built using
-                                Substrate and nearly the same codebase as
-                                Polkadot. Acala will operate our DeFi parachain
-                                on both Kusama and Polkadot in order to serve
-                                both communities. To join Kusama’s network, all
-                                parachains must participate in and win an
-                                non-permissioned candle auction to secure a slot
-                                on the network.
+                            <div className={classes.why_item}>
+                                <div className={classes.why_item_head}>
+                                    <img
+                                        className={classes.why_item_icon}
+                                        src={whyIcon2}
+                                        alt="acala"
+                                    />
+                                </div>
+                                <div className={classes.why_item_title}>
+                                    Acala & Karura
+                                </div>
+                                <div className={classes.why_item_content}>
+                                    Acala will operate its DeFi parachain on
+                                    Polkadot and Kusama to serve both
+                                    communities. Karura is Acala’s parachain on
+                                    Kusama.
+                                </div>
+                            </div>
+                            <div className={classes.why_item}>
+                                <div className={classes.why_item_head}>
+                                    <img
+                                        className={classes.why_item_icon}
+                                        src={whyIcon3}
+                                        alt="acala"
+                                    />
+                                </div>
+                                <div className={classes.why_item_title}>
+                                    Parachain Auction
+                                </div>
+                                <div className={classes.why_item_content}>
+                                    To join Kusama’s network, all parachains
+                                    must participate in and win an
+                                    non-permissioned candle auction to secure a
+                                    slot on the network.Parachains can choose to
+                                    raise KSM in a variety of ways in order to
+                                    participate in the auction.
+                                </div>
                             </div>
                         </div>
-                        <div className={classes.why_item}>
-                            <div className={classes.why_item_title}>
-                                <img
-                                    className={classes.why_item_icon}
-                                    src={whyIcon2}
-                                    alt="acala"
-                                />
+                        <div className={classes.why_content_row}>
+                            <div className={classes.why_item}>
+                                <div className={classes.why_item_head}>
+                                    <img
+                                        className={classes.why_item_icon}
+                                        src={whyIcon4}
+                                        alt="acala"
+                                    />
+                                </div>
+                                <div className={classes.why_item_title}>
+                                    Karura (Acala on Kusama) IPO
+                                </div>
+                                <div className={classes.why_item_content}>
+                                    Acala has chosen to host an IPO to crowdfund
+                                    KSM, which will be used to participate in
+                                    the Kusama parachain auction. In return,
+                                    Acala will issue KAR, Acala’s native token
+                                    on Kusama, to participants depending on the
+                                    outcome of the auction.
+                                </div>
                             </div>
-                            <div className={classes.why_item_content}>
-                                Parachains can choose to raise KSM in a variety
-                                of ways in order to participate in the auction.
-                                Acala has chosen to host an IPO to crowdfund
-                                KSM, which will be used to participate in the
-                                Kusama parachain auction. In return for the KSM
-                                contributed by the community, Acala will issue
-                                KAR, Acala’s native token on Kusama, to
-                                participants depending on the outcome of the
-                                auction.
+                            <div className={classes.why_item}>
+                                <div className={classes.why_item_head}>
+                                    <img
+                                        className={classes.why_item_icon}
+                                        src={whyIcon5}
+                                        alt="acala"
+                                    />
+                                </div>
+                                <div className={classes.why_item_title}>
+                                    The Launch
+                                </div>
+                                <div className={classes.why_item_content}>
+                                    After Acala hosts the crowdfund, we will
+                                    participate in and aim to win the parachain
+                                    auction. If so, Acala will launch Karura
+                                    network on Kusama and become an the DeFi hub
+                                    of Kusama as planned.
+                                </div>
                             </div>
-                        </div>
-                        <div className={classes.why_item}>
-                            <div className={classes.why_item_title}>
-                                <img
-                                    className={classes.why_item_icon}
-                                    src={whyIcon3}
-                                    alt="acala"
-                                />
-                            </div>
-                            <div className={classes.why_item_content}>
-                                After Acala hosts the crowdfund, we will
-                                participate in and aim to win the auction to
-                                secure a parachain slot. If the slot is won,
-                                Acala will launch our mainnet on Polkadot
-                                following the auction and become an the DeFi hub
-                                of Polkadot as planned.
-                            </div>
+                            <div className={classes.why_item}></div>
                         </div>
                     </div>
                 </div>
@@ -219,7 +266,15 @@ function KusamaIPOContent() {
                                     Learn
                                 </div>
                                 <div className={classes.how_item_content}>
-                                    Learn how the IPO works
+                                    <a
+                                        href="/"
+                                        className={classes.exlink}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Learn
+                                    </a>{" "}
+                                    how the IPO works
                                 </div>
                             </div>
                         </div>
@@ -237,7 +292,42 @@ function KusamaIPOContent() {
                                     Follow us
                                 </div>
                                 <div className={classes.how_item_content}>
-                                    Follow our Newsletter, Twitter, and Telegram
+                                    Follow our{" "}
+                                    <a
+                                        href="/"
+                                        className={classes.exlink}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Newsletter
+                                    </a>
+                                    ,{" "}
+                                    <a
+                                        href="/"
+                                        className={classes.exlink}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Twitter
+                                    </a>
+                                    ,{" "}
+                                    <a
+                                        href="/"
+                                        className={classes.exlink}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Discord
+                                    </a>{" "}
+                                    and{" "}
+                                    <a
+                                        href="/"
+                                        className={classes.exlink}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Telegram
+                                    </a>{" "}
                                     for updates on the IPO start date
                                 </div>
                             </div>
@@ -253,10 +343,10 @@ function KusamaIPOContent() {
                                     Step 3
                                 </div>
                                 <div className={classes.how_item_subtitle}>
-                                    Unbond your DOT
+                                    Unbond your KSM
                                 </div>
                                 <div className={classes.how_item_content}>
-                                    If your DOT are bonded, you will need to
+                                    If your KSM are bonded, you will need to
                                     unbond your KSM at least 28 days before the
                                     IPO start date
                                 </div>
@@ -276,8 +366,8 @@ function KusamaIPOContent() {
                                     Participate
                                 </div>
                                 <div className={classes.how_item_content}>
-                                    When the IPO starts, join the action on
-                                    Polkadot.js, Polkawallet, [exchange], or
+                                    When the IPO starts, join the action here or
+                                    on Polkadot.js, Polkawallet, [exchange], or
                                     [exchange]
                                 </div>
                             </div>
@@ -293,6 +383,82 @@ function KusamaIPOContent() {
                             {
                                 q: (
                                     <span>
+                                        When is Karura (Acala on Kusama) IPO?
+                                    </span>
+                                ),
+                                a: (
+                                    <span>
+                                        <div>
+                                            a. This is technically dependant on
+                                            Polkadot/Kusama parachain auction
+                                            readiness.
+                                        </div>
+                                        <div>
+                                            b. Please follow our{" "}
+                                            <a
+                                                href="/"
+                                                className={classes.exlink}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                Newsletter
+                                            </a>
+                                            ,{" "}
+                                            <a
+                                                href="/"
+                                                className={classes.exlink}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                Twitter
+                                            </a>
+                                            ,{" "}
+                                            <a
+                                                href="/"
+                                                className={classes.exlink}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                Discord
+                                            </a>{" "}
+                                            and{" "}
+                                            <a
+                                                href="/"
+                                                className={classes.exlink}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                Telegram
+                                            </a>{" "}
+                                            for updates.
+                                        </div>
+                                    </span>
+                                ),
+                            },
+                            {
+                                q: (
+                                    <span>
+                                        How many ACA will I get for the KSM I
+                                        contributed?
+                                    </span>
+                                ),
+                                a: (
+                                    <span>
+                                        <div>
+                                            a. This depends on the lease/lock
+                                            period of KSM and a few other
+                                            factors.
+                                        </div>
+                                        <div>
+                                            b. We will release a calculator soon
+                                            to help you get a better idea.
+                                        </div>
+                                    </span>
+                                ),
+                            },
+                            {
+                                q: (
+                                    <span>
                                         What does it mean to unbond my KSM, and
                                         how do I do it?
                                     </span>
@@ -305,7 +471,16 @@ function KusamaIPOContent() {
                                         cooldown. You will not be able to
                                         transfer your tokens before this period
                                         has elapsed. Read more and find
-                                        instructions on the Kusama wiki.
+                                        instructions on the{" "}
+                                        <a
+                                            href="https://guide.kusama.network/docs/en/maintain-guides-how-to-unbond"
+                                            className={classes.exlink}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            Kusama wiki
+                                        </a>
+                                        .
                                     </span>
                                 ),
                             },
@@ -345,9 +520,16 @@ function KusamaIPOContent() {
                                 ),
                                 a: (
                                     <span>
-                                        Your KSM will be locked for the full
-                                        duration of Acala’s parachain lease,
-                                        which is ## months.
+                                        <div>
+                                            a. Your KSM will be locked for the
+                                            full duration of Acala’s parachain
+                                            lease, it’s a choice between 6, 12,
+                                            18 and 24 months.
+                                        </div>
+                                        <div>
+                                            b. Stay tuned and join the Karura
+                                            Canary Club to have your say.
+                                        </div>
                                     </span>
                                 ),
                             },
@@ -392,11 +574,21 @@ function KusamaIPOContent() {
                                     <span>
                                         The KSM contributed through the
                                         crowdfund will be in a module on the
-                                        Polkadot Relay Chain and can only be
-                                        used exclusively for the parachain bond
-                                        and cannot be transferred.
+                                        Kusama Relay Chain and can only be used
+                                        exclusively for the parachain bond and
+                                        cannot be transferred.
                                     </span>
                                 ),
+                            },
+                            {
+                                q: (
+                                    <span>
+                                        Will I have the choice to participate in
+                                        another IPO in the future after this
+                                        first parachain lease ends?
+                                    </span>
+                                ),
+                                a: <span>Yes.</span>,
                             },
                             {
                                 q: (
@@ -450,7 +642,7 @@ function KusamaIPOContent() {
                                             {a}
                                         </div>
                                     </div>
-                                    {index !== 7 ? (
+                                    {index !== 10 ? (
                                         <div className={classes.faq_hr} />
                                     ) : null}
                                 </React.Fragment>
