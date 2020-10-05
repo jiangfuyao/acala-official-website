@@ -293,6 +293,7 @@
 .faq_item_q {
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-right: 40px;
     font-size: 24px;
     font-weight: 500;
     line-height: normal;
@@ -306,6 +307,7 @@
 .faq_item_a {
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-right: 40px;
     font-size: 24px;
     font-weight: 500;
     line-height: normal;
@@ -566,6 +568,7 @@
         padding-top: 8px;
         padding-bottom: 8px;
         border-left-width: 4px;
+        padding-right: 20px;
     }
 
     .faq_item_a_title {
@@ -581,6 +584,7 @@
         padding-top: 8px;
         padding-bottom: 8px;
         border-left-width: 4px;
+        padding-right: 20px;
     }
 
     .faq_item_q_title {
