@@ -294,7 +294,7 @@ function KusamaIPOContent() {
                                 <div className={classes.how_item_content}>
                                     Follow our{" "}
                                     <a
-                                        href="/"
+                                        href="https://acala.network/newsletter-sign-up.html"
                                         className={classes.exlink}
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -396,7 +396,7 @@ function KusamaIPOContent() {
                                         <div>
                                             b. Please follow our{" "}
                                             <a
-                                                href="/"
+                                                href="https://acala.network/newsletter-sign-up.html"
                                                 className={classes.exlink}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
