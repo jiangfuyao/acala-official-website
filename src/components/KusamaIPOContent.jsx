@@ -397,12 +397,9 @@ function KusamaIPOContent() {
                                 a: (
                                     <span>
                                         <div>
-                                            a. This is technically dependant on
+                                            This is technically dependant on
                                             Kusama parachain auction
-                                            readiness.
-                                        </div>
-                                        <div>
-                                            b. Please follow our{" "}
+                                            readiness. Please follow our{" "}
                                             <a
                                                 href="https://acala.network/newsletter-sign-up.html"
                                                 className={classes.exlink}
@@ -453,12 +450,9 @@ function KusamaIPOContent() {
                                 a: (
                                     <span>
                                         <div>
-                                            a. This depends on the lease/lock
+                                            This depends on the lease/lock
                                             period of KSM and a few other
-                                            factors.
-                                        </div>
-                                        <div>
-                                            b. We will release a calculator soon
+                                            factors. We will release a calculator soon
                                             to help you get a better idea.
                                         </div>
                                     </span>
@@ -529,7 +523,7 @@ function KusamaIPOContent() {
                                 a: (
                                     <span>
                                         <div>
-                                            a. Your KSM will be locked for the
+                                            Your KSM will be locked for the
                                             full duration of Acala’s parachain
                                             lease, it’s a choice between 6, 12,
                                             18 and 24 months.
