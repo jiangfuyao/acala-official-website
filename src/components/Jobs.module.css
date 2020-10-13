@@ -37,26 +37,48 @@
     min-height: 300px;
 }
 
-:global(.angellist_jobs) {
+.jobsList {
     margin-top: 90px;
+    min-height: 500px;
 }
 
-:global(.angellist_jobs-title-link) {
+.jobItem {
+    margin-bottom: 32px !important;
+}
+
+.jobTitle {
+    position: relative;
+    display: inline-block;
     font-size: 24px;
     line-height: 29px;
     color: #3732FF !important;
     text-decoration: none !important;
+    cursor: pointer;
 }
 
-:global(.angellist_jobs-tags) {
+.jobTitle::after {
+    content: '';
+
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+
+    width: 100%;
+    height: 2px;
+    background: #3732FF;
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+}
+
+.jobTitle:hover::after {
+    opacity: 1;
+}
+
+.jobCategories {
     margin-top: 12px;
     font-size: 18px !important;
     line-height: 21px !important;
     color :#000000 !important;
-}
-
-:global(.angellist_jobs-job) {
-    margin-bottom: 32px !important;
 }
 
 .subTitle {
