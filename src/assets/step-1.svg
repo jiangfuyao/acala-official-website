@@ -9,8 +9,8 @@
             <feColorMatrix values="0 0 0 0 0.76215119   0 0 0 0 0.794377239   0 0 0 0 0.810490263  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
     </defs>
-    <g id="IPO" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="IPO-Polkadot" transform="translate(-330.000000, -2601.000000)">
+    <g id="PLO" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PLO-Polkadot" transform="translate(-330.000000, -2601.000000)">
             <g id="Group-14" transform="translate(360.000000, 2601.000000)">
                 <path d="M260.285132,85 L353.25993,217.738388 L355,536 L102.668024,536 L0,401" id="Path-31" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-dasharray="6,6"></path>
                 <g id="Rectangle-Copy-6">
