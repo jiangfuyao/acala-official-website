@@ -113,7 +113,7 @@ export const Header = ({ theme = "light" }) => {
                         <img src={status ? closeIcon : menuIcon} alt="menu" />
                     </div>
                     <Menu
-                        title={"Kusama IPO"}
+                        title={"Kusama PLO"}
                         to={"/kusama-ipo"}
                         className={classes.menuItem}
                         onClick={toggle}

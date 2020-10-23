@@ -605,9 +605,9 @@ function KusamaPLOContent() {
                                         Acala on Kusama. For participants, the
                                         key differences are that the parachain
                                         lease duration Kusama may be different and likely to be shorter than Polkadot. Also, participants
-                                        in the Acala IPO on Polkadot will
+                                        in the Acala PLO on Polkadot will
                                         receive ACA, whereas participants in the
-                                        Karura IPO on Kusama will receive KAR
+                                        Karura PLO on Kusama will receive KAR
                                         tokens.
                                     </span>
                                 ),
