@@ -1,14 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Index from "./pages/Index";
-import KusamaIPO from "./pages/KusamaIPO";
+import KusamaPLO from "./pages/KusamaPLO";
 
 function App() {
     return (
         <Router>
             <Switch>
                 <Route path="/kusama-ipo">
-                    <KusamaIPO />
+                    <KusamaPLO />
                 </Route>
                 <Route path="/">
                     <Index />

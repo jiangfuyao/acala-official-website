@@ -1,16 +1,16 @@
 import React from "react";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
-import KusamaIPOContent from "../components/KusamaIPOContent";
+import KusamaPLOContent from "../components/KusamaPLOContent";
 
-function KusamaIPO() {
+function KusamaPLO() {
     return (
         <>
             <Header theme="dark" />
-            <KusamaIPOContent />
+            <KusamaPLOContent />
             <Footer theme="dark" />
         </>
     );
 }
 
-export default KusamaIPO;
+export default KusamaPLO;

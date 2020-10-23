@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./KusamaIPOContent.module.css";
+import classes from "./KusamaPLOContent.module.css";
 import bg from "../assets/kusama.svg";
 import redDot from "../assets/red-dot.svg";
 import whatBG from "../assets/bitmap.svg";
@@ -14,7 +14,7 @@ import whyIcon5 from "../assets/why-icon-5.svg";
 import { useEffect } from "react";
 import clsx from "clsx";
 
-function KusamaIPOContent() {
+function KusamaPLOContent() {
     useEffect(() => {
         document.getElementsByTagName("body")[0].style.backgroundColor =
             "#000000";
@@ -95,15 +95,15 @@ function KusamaIPOContent() {
                                     a period of time (6, 12 or 24 months TBD) to
                                     help Karura lease a parachain slot and gain
                                     access to Kusama’s plug-and-play security
-                                    provided by the validator set. In return for KSM holders’ support, 
-                                    {" "} 
+                                    provided by the validator set. In return for KSM holders’ support,
+                                    {" "}
                                     <a
                                         href="https://github.com/AcalaNetwork/Acala/wiki/V.-ACA-&-KAR"
                                         className={classes.exlink}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        KAR 
+                                        KAR
                                     </a>
                                     {' '} (Karura's native token) will be distributed to
                                     participants.
@@ -352,7 +352,7 @@ function KusamaIPOContent() {
                                     Unbond your KSM
                                 </div>
                                 <div className={classes.how_item_content}>
-                                    If your KSM are staked, you will need to unstake & 
+                                    If your KSM are staked, you will need to unstake &
                                     unbond your KSM at least 28 days before the
                                     PLO start date
                                 </div>
@@ -651,4 +651,4 @@ function KusamaIPOContent() {
     );
 }
 
-export default KusamaIPOContent;
+export default KusamaPLOContent;
