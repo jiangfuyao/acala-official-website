@@ -28,7 +28,7 @@ function KusamaPLOContent() {
         <div className="ipo_content">
             <section className={classes.cover}>
                 <div className={classes.container}>
-                    <img src={bg} className={classes.cover_bg} alt="ipo" />
+                    <img src={bg} className={classes.cover_bg} alt="plo" />
                     <img
                         src={redDot}
                         className={classes.red_dot_up}

@@ -7,7 +7,7 @@ function App() {
     return (
         <Router>
             <Switch>
-                <Route path="/kusama-ipo">
+                <Route path="/kusama-plo">
                     <KusamaPLO />
                 </Route>
                 <Route path="/">

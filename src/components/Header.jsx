@@ -78,7 +78,7 @@ export const Header = ({ theme = "light" }) => {
                 <div className={classes.menu}>
                     <Menu
                         title={"Kusama PLO"}
-                        to={"/kusama-ipo"}
+                        to={"/kusama-plo"}
                         className={classes.menuItem}
                         theme={theme}
                     />
@@ -114,7 +114,7 @@ export const Header = ({ theme = "light" }) => {
                     </div>
                     <Menu
                         title={"Kusama PLO"}
-                        to={"/kusama-ipo"}
+                        to={"/kusama-plo"}
                         className={classes.menuItem}
                         onClick={toggle}
                         theme={theme}
