@@ -77,7 +77,7 @@ export const Header = ({ theme = "light" }) => {
                 />
                 <div className={classes.menu}>
                     <Menu
-                        title={"Kusama IPO"}
+                        title={"Kusama PLO"}
                         to={"/kusama-ipo"}
                         className={classes.menuItem}
                         theme={theme}

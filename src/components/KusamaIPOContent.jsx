@@ -40,7 +40,7 @@ function KusamaIPOContent() {
                         alt="dot"
                     />
                     <h1 className={classes.cover_title}>
-                        Join the First-ever Blockchain IPO
+                        Join the Karura Parachain Lease Offering (PLO)
                     </h1>
                     <div className={classes.cover_content}>
                         Acala's Karura network is the decentralized financial hub of{" "}
@@ -54,10 +54,19 @@ function KusamaIPOContent() {
                         </a>
                         . Be a part of Karura's fair and ethical token
                         distribution by participating in our initial parachain
-                        offering (IPO).
+                        offering.
                     </div>
                     <div className={classes.cover_action}>
-                        <div className={classes.cover_button}>Get Started</div>
+                        <div className={classes.cover_button}>
+                            <a
+                                href="https://discord.gg/HpsZx5r"
+                                className={classes.exlink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Join the Community
+                            </a>
+                        </div>
                         <div className={classes.cover_button}>Subscribe</div>
                     </div>
                 </div>
@@ -70,7 +79,7 @@ function KusamaIPOContent() {
                         alt="parachain"
                     />
                     <div className={classes.what_title}>
-                        What is an Initial Parachain Offering?
+                        What is an Parachain Lease Offering?
                     </div>
                     <div className={classes.what_content}>
                         <div className={classes.what_content_item}>
@@ -79,15 +88,15 @@ function KusamaIPOContent() {
                             </div>
                             <div>
                                 <div className={classes.what_content_title}>
-                                    Crowdfunding Network Security
+                                    Crowdsourced Network Security
                                 </div>
                                 <div className={classes.what_content_content}>
                                     KSM holders lock their tokens on Kusama for
                                     a period of time (6, 12 or 24 months TBD) to
-                                    help Acala's Karura network lease a parachain slot and gain
+                                    help Karura lease a parachain slot and gain
                                     access to Kusama’s plug-and-play security
-                                    provided by the validator set. In return for
-                                    locking KSM, {" "} 
+                                    provided by the validator set. In return for KSM holders’ support, 
+                                    {" "} 
                                     <a
                                         href="https://github.com/AcalaNetwork/Acala/wiki/V.-ACA-&-KAR"
                                         className={classes.exlink}
@@ -103,20 +112,14 @@ function KusamaIPOContent() {
                         </div>
                         <div className={classes.what_content_item}>
                             <div className={classes.what_content_icon}>
-                                <img src={whatIcon2} alt="Community Loan" />
+                                <img src={whatIcon2} alt="Community-backed Launch" />
                             </div>
                             <div>
                                 <div className={classes.what_content_title}>
-                                    Community Loan
+                                    Community-backed Launch
                                 </div>
                                 <div className={classes.what_content_content}>
-                                    Tokens will be returned to holders following
-                                    parachain lease, with a guarantee of
-                                    receiving your principal back. It can be
-                                    seen as a loan from community members
-                                    looking to contribute to the evolution of
-                                    Kusama’s network, and will result in a net
-                                    positive for KSM holders.
+                                Tokens will be returned to holders following parachain lease, with a guarantee of receiving the KSM principal back. It can be seen as a community-backed launch for individuals looking to contribute to the evolution of Kusama’s network and parachains.
                                 </div>
                             </div>
                         </div>
@@ -148,7 +151,7 @@ function KusamaIPOContent() {
             <section className={classes.why}>
                 <div className={classes.container}>
                     <div className={classes.why_title}>
-                        Why host an IPO and how does it work?
+                        Why host a PLO and how does it work?
                     </div>
                     <div className={classes.why_content}>
                         <div className={classes.why_content_row}>
@@ -220,15 +223,12 @@ function KusamaIPOContent() {
                                     />
                                 </div>
                                 <div className={classes.why_item_title}>
-                                    Karura IPO
+                                    Karura PLO
                                 </div>
                                 <div className={classes.why_item_content}>
-                                    Acala has chosen to host an IPO to crowdfund
+                                    Karura has chosen to host a Parachain Lease Offering to trustlessly crowdsource
                                     KSM, which will be used to participate in
-                                    the Kusama parachain auction. In return,
-                                    Acala will issue KAR, Karura's native token
-                                    on Kusama, to participants depending on the
-                                    outcome of the auction.
+                                    the Kusama parachain auction. These KSM would be bonded, or ‘locked’, in the Kusama Relay Chain for the duration of Karura’s parachain lease.
                                 </div>
                             </div>
                             <div className={classes.why_item}>
@@ -240,14 +240,11 @@ function KusamaIPOContent() {
                                     />
                                 </div>
                                 <div className={classes.why_item_title}>
-                                    The Launch
+                                    Introducing Paradrop
                                 </div>
                                 <div className={classes.why_item_content}>
-                                    After Acala hosts the crowdfund, we will
-                                    participate in and aim to win the parachain
-                                    auction. If so, Acala will launch Karura
-                                    network on Kusama and become an the DeFi hub
-                                    of Kusama as planned.
+                                    In the event Karura succeeds in its auction bid Karura will be launched on Kusama and become a DeFi hub
+                                    of Kusama as planned. Karura will gift by way of “Paradrop” KAR to Karura Supporters’ Kusama accounts through which they had bonded KSM in support of Karura’s parachain lease auction bid.
                                 </div>
                             </div>
                             <div className={classes.why_item}></div>
@@ -283,7 +280,7 @@ function KusamaIPOContent() {
                                     >
                                         Learn
                                     </a>{" "}
-                                    how the IPO works
+                                    how the Parachain Lease Offering works
                                 </div>
                             </div>
                         </div>
@@ -337,7 +334,7 @@ function KusamaIPOContent() {
                                     >
                                         Telegram
                                     </a>{" "}
-                                    for updates on the IPO start date
+                                    for updates on the PLO start date
                                 </div>
                             </div>
                         </div>
@@ -357,7 +354,7 @@ function KusamaIPOContent() {
                                 <div className={classes.how_item_content}>
                                     If your KSM are staked, you will need to unstake & 
                                     unbond your KSM at least 28 days before the
-                                    IPO start date
+                                    PLO start date
                                 </div>
                             </div>
                         </div>
@@ -375,7 +372,7 @@ function KusamaIPOContent() {
                                     Participate
                                 </div>
                                 <div className={classes.how_item_content}>
-                                    When the IPO starts, join the action here or
+                                    When the PLO starts, join the action here or
                                     on Polkadot.js, Polkawallet and participating exchanges.
                                 </div>
                             </div>
@@ -391,7 +388,7 @@ function KusamaIPOContent() {
                             {
                                 q: (
                                     <span>
-                                        When is Karura (Acala on Kusama) IPO?
+                                        When is Karura (Acala on Kusama) PLO?
                                     </span>
                                 ),
                                 a: (
@@ -443,7 +440,7 @@ function KusamaIPOContent() {
                             {
                                 q: (
                                     <span>
-                                        How many ACA will I get for the KSM I
+                                        How many KAR will I get for the KSM I
                                         contributed?
                                     </span>
                                 ),
@@ -451,7 +448,7 @@ function KusamaIPOContent() {
                                     <span>
                                         <div>
                                             This depends on the lease/lock
-                                            period of KSM and a few other
+                                            period of KSM, the level of KSM support, and a few other
                                             factors. We will release a calculator soon
                                             to help you get a better idea.
                                         </div>
@@ -498,14 +495,14 @@ function KusamaIPOContent() {
                             {
                                 q: (
                                     <span>
-                                        Can I participate in the IPO from an
+                                        Can I participate in the PLO from an
                                         exchange, or where do my tokens have to
                                         be?
                                     </span>
                                 ),
                                 a: (
                                     <span>
-                                        You can participate in the IPO from
+                                        You can participate in the PLO from
                                         participating exchanges. If your KSM
                                         are on a different exchange, you can
                                         participate by transferring your KSM to
@@ -529,8 +526,7 @@ function KusamaIPOContent() {
                                             18 and 24 months.
                                         </div>
                                         <div>
-                                            b. Stay tuned and join the Karura
-                                             Club to have your say.
+                                            b. Stay tuned and join Karura to have your say.
                                         </div>
                                     </span>
                                 ),
@@ -553,13 +549,13 @@ function KusamaIPOContent() {
                             {
                                 q: (
                                     <span>
-                                        What if Acala doesn’t win the parachain
+                                        What if Karura doesn’t win the parachain
                                         auction - what happens to my KSM?
                                     </span>
                                 ),
                                 a: (
                                     <span>
-                                        If Acala does not win the auction, your
+                                        If Karura does not win the auction, your
                                         KSM will be automatically returned
                                         immediately.
                                     </span>
@@ -568,14 +564,14 @@ function KusamaIPOContent() {
                             {
                                 q: (
                                     <span>
-                                        What can Acala use the KSM contributed
+                                        What can Karura use the KSM contributed
                                         by the community?
                                     </span>
                                 ),
                                 a: (
                                     <span>
                                         The KSM contributed through the
-                                        crowdfund will be in a module on the
+                                        crowdsource will be in a module on the
                                         Kusama Relay Chain and can only be used
                                         exclusively for the parachain bond and
                                         cannot be transferred.
@@ -586,7 +582,7 @@ function KusamaIPOContent() {
                                 q: (
                                     <span>
                                         Will I have the choice to participate in
-                                        another IPO in the future after this
+                                        another PLO in the future after this
                                         first parachain lease ends?
                                     </span>
                                 ),
@@ -596,15 +592,15 @@ function KusamaIPOContent() {
                                 q: (
                                     <span>
                                         What is the difference between the Acala
-                                        IPO on Polkadot and the Acala IPO on
+                                        PLO on Polkadot and the Acala PLO on
                                         Kusama?
                                     </span>
                                 ),
                                 a: (
                                     <span>
-                                        The IPO for Polkadot will contribute to
+                                        The PLO for Polkadot will contribute to
                                         the launch of Acala’s network on
-                                        Polkadot. Similarly, Acala’s IPO on
+                                        Polkadot. Similarly, Acala’s PLO on
                                         Kusama will help bootstrap the launch of
                                         Acala on Kusama. For participants, the
                                         key differences are that the parachain
