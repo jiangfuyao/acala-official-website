@@ -29,11 +29,11 @@
     margin-top: 181.5px;
 }
 
-.header.open + :global(.ipo_content) {
+.header.open + :global(.plo_content) {
     margin-top: 181.5px;
 }
 
-.header + :global(.ipo_content) {
+.header + :global(.plo_content) {
     margin-top: 91.5px;
 }
 
