@@ -1,18 +1,16 @@
-import React from "react";
-import classes from "./KusamaPLOContent.module.css";
+import clsx from "clsx";
+import React, { useEffect } from "react";
 import bg from "../assets/karura-logo.svg";
-import redDot from "../assets/red-dot.svg";
 import whatBG from "../assets/karura-what-bg.svg";
+import redDot from "../assets/red-dot.svg";
 import whatIcon1 from "../assets/what-light-icon-1.svg";
 import whatIcon2 from "../assets/what-light-icon-2.svg";
 import whatIcon3 from "../assets/what-light-icon-3.svg";
-import whyIcon1 from "../assets/why-icon-1.svg";
 import whyIcon2 from "../assets/why-icon-2.svg";
 import whyIcon3 from "../assets/why-icon-3.svg";
 import whyIcon4 from "../assets/why-icon-4.svg";
 import whyIcon5 from "../assets/why-icon-5.svg";
-import { useEffect } from "react";
-import clsx from "clsx";
+import classes from "./KusamaPLOContent.module.css";
 
 function KusamaPLOContent() {
     useEffect(() => {
@@ -321,7 +319,8 @@ function KusamaPLOContent() {
                                         rel="noopener noreferrer"
                                     >
                                         Discord
-                                    </a>,{" "}
+                                    </a>
+                                    ,{" "}
                                     <a
                                         href="https://acala.network/newsletter-sign-up.html"
                                         className={classes.exlink}
@@ -420,7 +419,8 @@ function KusamaPLOContent() {
                                                 rel="noopener noreferrer"
                                             >
                                                 Discord
-                                            </a>,{" "}
+                                            </a>
+                                            ,{" "}
                                             <a
                                                 href="https://acala.network/newsletter-sign-up.html"
                                                 className={classes.exlink}
