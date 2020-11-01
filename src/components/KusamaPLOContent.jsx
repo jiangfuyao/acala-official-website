@@ -40,7 +40,7 @@ function KusamaPLOContent() {
                         alt="dot"
                     />
                     <h1 className={classes.cover_title}>
-                        Join the Karura Parachain Lease Offering (PLO)
+                        Join the Karura Parachain Lease Offering
                     </h1>
                     <div className={classes.cover_content}>
                         Karura is the decentralized financial hub and stablecoin
