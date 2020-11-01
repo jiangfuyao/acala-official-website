@@ -1,8 +1,8 @@
 import React from "react";
 import classes from "./KusamaPLOContent.module.css";
-import bg from "../assets/kusama.svg";
+import bg from "../assets/karura-logo.svg";
 import redDot from "../assets/red-dot.svg";
-import whatBG from "../assets/bitmap.svg";
+import whatBG from "../assets/karura-what-bg.svg";
 import whatIcon1 from "../assets/what-light-icon-1.svg";
 import whatIcon2 from "../assets/what-light-icon-2.svg";
 import whatIcon3 from "../assets/what-light-icon-3.svg";
@@ -43,18 +43,29 @@ function KusamaPLOContent() {
                         Join the Karura Parachain Lease Offering (PLO)
                     </h1>
                     <div className={classes.cover_content}>
-                        Acala's Karura network is the decentralized financial hub of{" "}
+                        Karura is the decentralized financial hub and stablecoin
+                        of{" "}
                         <a
                             href="http://kusama.network"
                             className={classes.exlink}
                             target="_blank"
+                            title="Kusama"
                             rel="noopener noreferrer"
                         >
                             Kusama
                         </a>
-                        . Be a part of Karura's fair and ethical token
-                        distribution by participating in our initial parachain
-                        offering.
+                        . Be a part of Karura’s fair and ethical token
+                        distribution by participating in our Parachain Lease
+                        Offering (PLO). New to Karura?{" "}
+                        <a
+                            href="https://medium.com/acalanetwork/introducing-karura-acalas-defi-parachain-on-kusama-af2f2695b07a"
+                            className={classes.exlink}
+                            target="_blank"
+                            title="Learn more"
+                            rel="noopener noreferrer"
+                        >
+                            Learn more
+                        </a>
                     </div>
                     <div className={classes.cover_action}>
                         <div className={classes.cover_button}>
@@ -79,12 +90,15 @@ function KusamaPLOContent() {
                         alt="parachain"
                     />
                     <div className={classes.what_title}>
-                        What is an Parachain Lease Offering?
+                        What is an Initial Parachain Offering?
                     </div>
                     <div className={classes.what_content}>
                         <div className={classes.what_content_item}>
                             <div className={classes.what_content_icon}>
-                                <img src={whatIcon1} alt="Security" />
+                                <img
+                                    src={whatIcon1}
+                                    alt="Crowdsourced Network Security"
+                                />
                             </div>
                             <div>
                                 <div className={classes.what_content_title}>
@@ -95,31 +109,31 @@ function KusamaPLOContent() {
                                     a period of time (6, 12 or 24 months TBD) to
                                     help Karura lease a parachain slot and gain
                                     access to Kusama’s plug-and-play security
-                                    provided by the validator set. In return for KSM holders’ support,
-                                    {" "}
-                                    <a
-                                        href="https://github.com/AcalaNetwork/Acala/wiki/V.-ACA-&-KAR"
-                                        className={classes.exlink}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        KAR
-                                    </a>
-                                    {' '} (Karura's native token) will be distributed to
-                                    participants.
+                                    provided by the validator set. In return for
+                                    KSM holders’ support, KAR (Karura’s native
+                                    token) will be distributed to participants.
                                 </div>
                             </div>
                         </div>
                         <div className={classes.what_content_item}>
                             <div className={classes.what_content_icon}>
-                                <img src={whatIcon2} alt="Community-backed Launch" />
+                                <img
+                                    src={whatIcon2}
+                                    alt="Community-backed Launch"
+                                />
                             </div>
                             <div>
                                 <div className={classes.what_content_title}>
                                     Community-backed Launch
                                 </div>
                                 <div className={classes.what_content_content}>
-                                Tokens will be returned to holders following parachain lease, with a guarantee of receiving the KSM principal back. It can be seen as a community-backed launch for individuals looking to contribute to the evolution of Kusama’s network and parachains.
+                                    Tokens will be returned to holders following
+                                    parachain lease, with a guarantee of
+                                    receiving the KSM principal back. It can be
+                                    seen as a community-backed launch for
+                                    individuals looking to contribute to the
+                                    evolution of Kusama’s network and
+                                    parachains.
                                 </div>
                             </div>
                         </div>
@@ -151,47 +165,11 @@ function KusamaPLOContent() {
             <section className={classes.why}>
                 <div className={classes.container}>
                     <div className={classes.why_title}>
-                        Why host a PLO and how does it work?
+                        Why host a Parachain Lease Offering and how does it
+                        work?
                     </div>
                     <div className={classes.why_content}>
                         <div className={classes.why_content_row}>
-                            <div className={classes.why_item}>
-                                <div className={classes.why_item_head}>
-                                    <img
-                                        className={classes.why_item_icon}
-                                        src={whyIcon1}
-                                        alt="acala"
-                                    />
-                                </div>
-                                <div className={classes.why_item_title}>
-                                    Kusama
-                                </div>
-                                <div className={classes.why_item_content}>
-                                    Kusama is a sharded, multi-chain network
-                                    that allows blockchains to connect for
-                                    interoperability, scalability, and
-                                    plug-and-play network security. Kusama is
-                                    the canary network of Polkadot.
-                                </div>
-                            </div>
-                            <div className={classes.why_item}>
-                                <div className={classes.why_item_head}>
-                                    <img
-                                        className={classes.why_item_icon}
-                                        src={whyIcon2}
-                                        alt="acala"
-                                    />
-                                </div>
-                                <div className={classes.why_item_title}>
-                                    Acala & Karura
-                                </div>
-                                <div className={classes.why_item_content}>
-                                    Acala will operate its DeFi parachain on
-                                    Polkadot and Kusama to serve both
-                                    communities. Karura is Acala’s parachain on
-                                    Kusama.
-                                </div>
-                            </div>
                             <div className={classes.why_item}>
                                 <div className={classes.why_item_head}>
                                     <img
@@ -204,16 +182,19 @@ function KusamaPLOContent() {
                                     Parachain Auction
                                 </div>
                                 <div className={classes.why_item_content}>
-                                    To join Kusama’s network, all parachains
-                                    must participate in and win an
-                                    non-permissioned candle auction to secure a
-                                    slot on the network. Parachains can choose to
-                                    raise KSM in a variety of ways in order to
-                                    participate in the auction.
+                                    Kusama is a sharded, multi-chain network
+                                    that allows blockchains to connect for
+                                    interoperability, scalability, and
+                                    plug-and-play network security. Kusama is
+                                    the cousin network of Polkadot. To join
+                                    Kusama’s network, all parachains must
+                                    participate in and win an non-permissioned
+                                    candle auction to secure a slot on the
+                                    network.Parachains can choose to raise KSM
+                                    in a variety of ways in order to participate
+                                    in the auction.
                                 </div>
                             </div>
-                        </div>
-                        <div className={classes.why_content_row}>
                             <div className={classes.why_item}>
                                 <div className={classes.why_item_head}>
                                     <img
@@ -223,12 +204,16 @@ function KusamaPLOContent() {
                                     />
                                 </div>
                                 <div className={classes.why_item_title}>
-                                    Karura PLO
+                                    Karura’s PLO
                                 </div>
                                 <div className={classes.why_item_content}>
-                                    Karura has chosen to host a Parachain Lease Offering to trustlessly crowdsource
+                                    Karura has chosen to host an Parachain Lease
+                                    Offering (PLO) to trustlessly crowdsource
                                     KSM, which will be used to participate in
-                                    the Kusama parachain auction. These KSM would be bonded, or ‘locked’, in the Kusama Relay Chain for the duration of Karura’s parachain lease.
+                                    the Kusama parachain auction. These KSM
+                                    would be bonded, or ‘locked’, in the Kusama
+                                    Relay Chain for the duration of Karura’s
+                                    parachain lease.
                                 </div>
                             </div>
                             <div className={classes.why_item}>
@@ -240,13 +225,42 @@ function KusamaPLOContent() {
                                     />
                                 </div>
                                 <div className={classes.why_item_title}>
-                                    Introducing Paradrop
+                                    Karura (KAR) Paradrop
                                 </div>
                                 <div className={classes.why_item_content}>
-                                    In the event Karura succeeds in its auction bid Karura will be launched on Kusama and become a DeFi hub
-                                    of Kusama as planned. Karura will gift by way of “Paradrop” KAR to Karura Supporters’ Kusama accounts through which they had bonded KSM in support of Karura’s parachain lease auction bid.
+                                    In the event Karura succeeds in its auction
+                                    bid and secures a Kusama parachain lease,
+                                    and network genesis of Karura occurs on
+                                    Kusama, Karura will gift by way of
+                                    “Paradrop” KAR to Karura Supporters’ Kusama
+                                    accounts through which they had bonded KSM
+                                    in support of Karura’s parachain lease
+                                    auction bid. The amount of KAR
                                 </div>
                             </div>
+                        </div>
+                        <div className={classes.why_content_row}>
+                            <div className={classes.why_item}>
+                                <div className={classes.why_item_head}>
+                                    <img
+                                        className={classes.why_item_icon}
+                                        src={whyIcon2}
+                                        alt="acala"
+                                    />
+                                </div>
+                                <div className={classes.why_item_title}>
+                                    Acala & Karura
+                                </div>
+                                <div className={classes.why_item_content}>
+                                    Acala will operate its DeFi parachains on
+                                    Polkadot and Kusama to serve both
+                                    communities. Acala and Karura will operate
+                                    in parallel, and will eventually be
+                                    interoperable once Polkadot and Kusama are
+                                    bridged.
+                                </div>
+                            </div>
+                            <div className={classes.why_item}></div>
                             <div className={classes.why_item}></div>
                         </div>
                     </div>
@@ -273,14 +287,15 @@ function KusamaPLOContent() {
                                 </div>
                                 <div className={classes.how_item_content}>
                                     <a
-                                        href="/"
+                                        href="https://medium.com/acalanetwork/karuras-approach-to-the-upcoming-parachain-lease-offering-plo-on-kusama-12fbf09ee463"
                                         className={classes.exlink}
                                         target="_blank"
                                         rel="noopener noreferrer"
+                                        title="Learn"
                                     >
                                         Learn
                                     </a>{" "}
-                                    how the Parachain Lease Offering works
+                                    how the PLO works.
                                 </div>
                             </div>
                         </div>
@@ -298,7 +313,15 @@ function KusamaPLOContent() {
                                     Follow us
                                 </div>
                                 <div className={classes.how_item_content}>
-                                    Follow our{" "}
+                                    Join our{" "}
+                                    <a
+                                        href="https://discord.gg/HpsZx5r"
+                                        className={classes.exlink}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Discord
+                                    </a>,{" "}
                                     <a
                                         href="https://acala.network/newsletter-sign-up.html"
                                         className={classes.exlink}
@@ -316,25 +339,16 @@ function KusamaPLOContent() {
                                     >
                                         Twitter
                                     </a>
-                                    ,{" "}
+                                    , and{" "}
                                     <a
-                                        href="/"
-                                        className={classes.exlink}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        Discord
-                                    </a>{" "}
-                                    and{" "}
-                                    <a
-                                        href="/"
+                                        href="https://t.me/karuranetwork"
                                         className={classes.exlink}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
                                         Telegram
                                     </a>{" "}
-                                    for updates on the PLO start date
+                                    for updates.
                                 </div>
                             </div>
                         </div>
@@ -352,9 +366,9 @@ function KusamaPLOContent() {
                                     Unbond your KSM
                                 </div>
                                 <div className={classes.how_item_content}>
-                                    If your KSM are staked, you will need to unstake &
-                                    unbond your KSM at least 28 days before the
-                                    PLO start date
+                                    If your KSM are bonded, you will need to
+                                    unbond your KSM at least 7 days before the
+                                    PLO start date.
                                 </div>
                             </div>
                         </div>
@@ -372,8 +386,9 @@ function KusamaPLOContent() {
                                     Participate
                                 </div>
                                 <div className={classes.how_item_content}>
-                                    When the PLO starts, join the action here or
-                                    on Polkadot.js, Polkawallet and participating exchanges.
+                                    When the PLO starts, join the action on this
+                                    website, Polkadot.js, Polkawallet, and other
+                                    supported exchanges TBD
                                 </div>
                             </div>
                         </div>
@@ -388,15 +403,24 @@ function KusamaPLOContent() {
                             {
                                 q: (
                                     <span>
-                                        When is Karura (Acala on Kusama) PLO?
+                                        When is the Karura (Acala on Kusama)
+                                        PLO?
                                     </span>
                                 ),
                                 a: (
                                     <span>
                                         <div>
                                             This is technically dependant on
-                                            Kusama parachain auction
-                                            readiness. Please follow our{" "}
+                                            Polkadot/Kusama parachain auction
+                                            readiness. Join our{" "}
+                                            <a
+                                                href="https://discord.gg/HpsZx5r"
+                                                className={classes.exlink}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                Discord
+                                            </a>,{" "}
                                             <a
                                                 href="https://acala.network/newsletter-sign-up.html"
                                                 className={classes.exlink}
@@ -414,16 +438,7 @@ function KusamaPLOContent() {
                                             >
                                                 Twitter
                                             </a>
-                                            ,{" "}
-                                            <a
-                                                href="https://discord.gg/vdbFVCH"
-                                                className={classes.exlink}
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                            >
-                                                Discord
-                                            </a>{" "}
-                                            and{" "}
+                                            , and{" "}
                                             <a
                                                 href="https://t.me/karuranetwork"
                                                 className={classes.exlink}
@@ -440,17 +455,29 @@ function KusamaPLOContent() {
                             {
                                 q: (
                                     <span>
-                                        How many KAR will I get for the KSM I
-                                        contributed?
+                                        How many KAR will I get for my KSM
+                                        support?
                                     </span>
                                 ),
                                 a: (
                                     <span>
                                         <div>
                                             This depends on the lease/lock
-                                            period of KSM, the level of KSM support, and a few other
-                                            factors. We will release a calculator soon
-                                            to help you get a better idea.
+                                            period of KSM and a few other
+                                            factors. We will release a
+                                            calculator soon to help you get a
+                                            better idea. In a completely
+                                            hypothetical example, a Karura
+                                            supporter bonding X amount of KSM
+                                            for Karura’s successful bid for a
+                                            6-months parachain lease would be
+                                            recognized by a Paradrop of 5 KAR
+                                            for her support; the same amount of
+                                            KSM bonded in support of a
+                                            successful bid for a 12-month
+                                            parachain lease would be recognised
+                                            with a Paradrop of 10 KAR given the
+                                            extended duration of support.
                                         </div>
                                     </span>
                                 ),
@@ -503,11 +530,11 @@ function KusamaPLOContent() {
                                 a: (
                                     <span>
                                         You can participate in the PLO from
-                                        participating exchanges. If your KSM
+                                        [participating exchange]. If your KSM
                                         are on a different exchange, you can
                                         participate by transferring your KSM to
                                         Polkadot.js, Polkawallet, or
-                                        participating exchanges.
+                                        [participating exchange].
                                     </span>
                                 ),
                             },
@@ -520,13 +547,11 @@ function KusamaPLOContent() {
                                 a: (
                                     <span>
                                         <div>
-                                            Your KSM will be locked for the
-                                            full duration of Acala’s parachain
-                                            lease, it’s a choice between 6, 12,
-                                            18 and 24 months.
-                                        </div>
-                                        <div>
-                                            b. Stay tuned and join Karura to have your say.
+                                            Your KSM will be locked for the full
+                                            duration of Karura’s parachain
+                                            lease. This is a yet-to-be
+                                            determined choice between 6, 12, 18
+                                            and 24 months.
                                         </div>
                                     </span>
                                 ),
@@ -564,17 +589,16 @@ function KusamaPLOContent() {
                             {
                                 q: (
                                     <span>
-                                        What can Karura use the KSM contributed
-                                        by the community?
+                                        How can Karura use the KSM support from
+                                        the community?
                                     </span>
                                 ),
                                 a: (
                                     <span>
-                                        The KSM contributed through the
-                                        crowdsource will be in a module on the
-                                        Kusama Relay Chain and can only be used
-                                        exclusively for the parachain bond and
-                                        cannot be transferred.
+                                        The KSM support will be in a module on
+                                        the Kusama Relay Chain and can only be
+                                        used exclusively for the parachain bond
+                                        and cannot be transferred.
                                     </span>
                                 ),
                             },
@@ -582,8 +606,8 @@ function KusamaPLOContent() {
                                 q: (
                                     <span>
                                         Will I have the choice to participate in
-                                        another PLO in the future after this
-                                        first parachain lease ends?
+                                        another parachain offering in the future
+                                        after this first parachain lease ends?
                                     </span>
                                 ),
                                 a: <span>Yes.</span>,
@@ -592,23 +616,22 @@ function KusamaPLOContent() {
                                 q: (
                                     <span>
                                         What is the difference between the Acala
-                                        PLO on Polkadot and the Acala PLO on
+                                        PLO on Polkadot and the Karura PLO on
                                         Kusama?
                                     </span>
                                 ),
                                 a: (
                                     <span>
-                                        The PLO for Polkadot will contribute to
-                                        the launch of Acala’s network on
-                                        Polkadot. Similarly, Acala’s PLO on
-                                        Kusama will help bootstrap the launch of
-                                        Acala on Kusama. For participants, the
+                                        Karura’s PLO is on Kusama will help
+                                        bootstrap the launch of Acala’s sister
+                                        network on Kusama. For participants, the
                                         key differences are that the parachain
-                                        lease duration Kusama may be different and likely to be shorter than Polkadot. Also, participants
-                                        in the Acala PLO on Polkadot will
-                                        receive ACA, whereas participants in the
-                                        Karura PLO on Kusama will receive KAR
-                                        tokens.
+                                        lease duration for Karura may be
+                                        different and likely to be shorter than
+                                        Acala. Also, participants in the Acala
+                                        PLO on Polkadot will receive ACA,
+                                        whereas participants in the Karura PLO
+                                        on Kusama will receive KAR tokens.
                                     </span>
                                 ),
                             },

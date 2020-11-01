@@ -77,7 +77,7 @@ export const Header = ({ theme = "light" }) => {
                 />
                 <div className={classes.menu}>
                     <Menu
-                        title={"Kusama PLO"}
+                        title={"Join Karura"}
                         to={"/kusama-plo"}
                         className={classes.menuItem}
                         theme={theme}
@@ -113,7 +113,7 @@ export const Header = ({ theme = "light" }) => {
                         <img src={status ? closeIcon : menuIcon} alt="menu" />
                     </div>
                     <Menu
-                        title={"Kusama PLO"}
+                        title={"Join Karura"}
                         to={"/kusama-plo"}
                         className={classes.menuItem}
                         onClick={toggle}
