@@ -88,7 +88,7 @@ function KusamaPLOContent() {
                         alt="parachain"
                     />
                     <div className={classes.what_title}>
-                        What is an Parachain Launch Offering?
+                        What is a Parachain Launch Offering?
                     </div>
                     <div className={classes.what_content}>
                         <div className={classes.what_content_item}>
