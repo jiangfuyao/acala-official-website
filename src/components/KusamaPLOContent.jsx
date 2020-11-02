@@ -214,6 +214,8 @@ function KusamaPLOContent() {
                                     parachain lease.
                                 </div>
                             </div>
+                        </div>
+                        <div className={classes.why_content_row}>
                             <div className={classes.why_item}>
                                 <div className={classes.why_item_head}>
                                     <img
@@ -233,11 +235,11 @@ function KusamaPLOContent() {
                                     “Paradrop” KAR to Karura supporters’ Kusama
                                     accounts through which they had bonded KSM
                                     in support of Karura’s parachain lease
-                                    auction bid. The amount of KAR paradropped is dependant on the level of support provided.
+                                    auction bid. The amount of KAR paradropped
+                                    is dependant on the level of support
+                                    provided.
                                 </div>
                             </div>
-                        </div>
-                        <div className={classes.why_content_row}>
                             <div className={classes.why_item}>
                                 <div className={classes.why_item_head}>
                                     <img
@@ -258,8 +260,6 @@ function KusamaPLOContent() {
                                     bridged.
                                 </div>
                             </div>
-                            <div className={classes.why_item}></div>
-                            <div className={classes.why_item}></div>
                         </div>
                     </div>
                 </div>
@@ -518,7 +518,7 @@ function KusamaPLOContent() {
                                     </span>
                                 ),
                                 a: <span>No.</span>,
-                            },                        
+                            },
                             {
                                 q: (
                                     <span>
