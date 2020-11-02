@@ -163,7 +163,7 @@ function KusamaPLOContent() {
             <section className={classes.why}>
                 <div className={classes.container}>
                     <div className={classes.why_title}>
-                        Why host a Parachain Lease Offering and how does it
+                        Why host a PLO and how does it
                         work?
                     </div>
                     <div className={classes.why_content}>
