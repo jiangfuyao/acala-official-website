@@ -88,7 +88,7 @@ function KusamaPLOContent() {
                         alt="parachain"
                     />
                     <div className={classes.what_title}>
-                        What is an Initial Parachain Offering?
+                        What is an Parachain Launch Offering?
                     </div>
                     <div className={classes.what_content}>
                         <div className={classes.what_content_item}>
@@ -186,9 +186,9 @@ function KusamaPLOContent() {
                                     plug-and-play network security. Kusama is
                                     the cousin network of Polkadot. To join
                                     Kusama’s network, all parachains must
-                                    participate in and win an non-permissioned
+                                    participate in and win a non-permissioned
                                     candle auction to secure a slot on the
-                                    network.Parachains can choose to raise KSM
+                                    network. Parachains can choose to raise KSM
                                     in a variety of ways in order to participate
                                     in the auction.
                                 </div>
@@ -230,10 +230,10 @@ function KusamaPLOContent() {
                                     bid and secures a Kusama parachain lease,
                                     and network genesis of Karura occurs on
                                     Kusama, Karura will gift by way of
-                                    “Paradrop” KAR to Karura Supporters’ Kusama
+                                    “Paradrop” KAR to Karura supporters’ Kusama
                                     accounts through which they had bonded KSM
                                     in support of Karura’s parachain lease
-                                    auction bid. The amount of KAR
+                                    auction bid. The amount of KAR paradropped is dependant on the level of support provided.
                                 </div>
                             </div>
                         </div>
@@ -387,7 +387,7 @@ function KusamaPLOContent() {
                                 <div className={classes.how_item_content}>
                                     When the PLO starts, join the action on this
                                     website, Polkadot.js, Polkawallet, and other
-                                    supported exchanges TBD
+                                    supported exchanges (TBD).
                                 </div>
                             </div>
                         </div>
@@ -518,26 +518,7 @@ function KusamaPLOContent() {
                                     </span>
                                 ),
                                 a: <span>No.</span>,
-                            },
-                            {
-                                q: (
-                                    <span>
-                                        Can I participate in the PLO from an
-                                        exchange, or where do my tokens have to
-                                        be?
-                                    </span>
-                                ),
-                                a: (
-                                    <span>
-                                        You can participate in the PLO from
-                                        [participating exchange]. If your KSM
-                                        are on a different exchange, you can
-                                        participate by transferring your KSM to
-                                        Polkadot.js, Polkawallet, or
-                                        [participating exchange].
-                                    </span>
-                                ),
-                            },
+                            },                        
                             {
                                 q: (
                                     <span>
